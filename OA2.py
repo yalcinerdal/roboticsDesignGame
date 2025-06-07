@@ -3,7 +3,7 @@
 import time
 import random
 import cv2
-from handdetect import HandGestureTracker
+from HandDetection import HandGestureTracker
 import serial
 
 def selectAudioInput(com,choice): #communication arduino will send here.
